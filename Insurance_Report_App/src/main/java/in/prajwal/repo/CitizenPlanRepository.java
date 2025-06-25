@@ -9,12 +9,12 @@ import in.prajwal.entity.CitizenPlan;
 
 public interface CitizenPlanRepository extends JpaRepository<CitizenPlan, Integer> {
 
-	@Query("select distinct (planName) from CitizenPlan")
+	@Query("SELECT DISTINCT c.planName FROM CitizenPlan c WHERE c.planName IS NOT NULL")
 	public List<String> getPlanNames();
-	
-	@Query("select distinct (planStatus) from CitizenPlan")
+
+	@Query("SELECT DISTINCT c.planStatus FROM CitizenPlan c WHERE c.planStatus IS NOT NULL")
 	public List<String> getPlanStatus();
-	
+
 	 
 	
 }

@@ -14,10 +14,6 @@
    <div class="container mt-5">
      <h3 class="pb-3 pt-3">Report Application</h3>
      
-     <c:out value="${search}" /><br/>
- <c:out value="${name}" /><br/>
-<c:out value="${status}" /><br/>
-     
      <form:form action="search" modelAttribute="search" method="post">
        <table class="table table-borderless">
          <tr>
@@ -51,19 +47,55 @@
 
          <tr>
            <td>Start Date:</td>
-           <td><form:input path="startDate" cssClass="form-control"/></td>
+           <td><form:input path="startDate" type="date" cssClass="form-control"/></td>
+           
            <td>End Date:</td>
-           <td><form:input path="endDate" cssClass="form-control"/></td>        
+           <td><form:input type="date" path="endDate" cssClass="form-control"/></td>        
          </tr>
 
-         <tr>
-           <td colspan="4" class="text-center">
-             <button type="submit" value="Search" class="btn btn-primary">Search</button>
-           </td>
-         </tr>
+       <tr>
+  <td colspan="4" class="text-center">
+    <a href="/" class="btn btn-secondary me-2">Reset</a>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </td>
+</tr>
+
        </table>
      </form:form>
+     <hr/>
      
+     <table class ="table table-striped table-hover">
+        <thead>
+        <tr>
+        <th>Sr.No></th>
+         <th>Holder Name</th>
+          <th>Gender</th>
+         <th>Plan name</th>
+         <th>Plan Status</th>
+         <th>Start Date></th>
+         <th>End Date</th>
+        
+        </tr>     
+    </thead>
+    <tbody>
+       <c:forEach items="${plans}" var="plan" varStatus="index">
+       <tr>
+       <td>${index.count}</td>
+       <td>${plan.citizenName}</td>
+        <td>${plan.gender}</td>
+       <td>${plan.planName}</td>
+       <td>${plan.planStatus}</td>
+       <td>${plan.planStartDate}</td>
+       <td>${plan.planEndDate}</td>
+       </tr>
+          <tr>
+       </c:forEach>
+       <c:if test="${empty plans}">
+      <td colspan="7" style="text-align: center">  NO RECORD FOUND </td>
+       </c:if>
+       </tr> 
+       </tbody>
+     </table> 
      <hr/>
      Export : <a href="">Excel</a> <a href="">PDF</a>
    </div>

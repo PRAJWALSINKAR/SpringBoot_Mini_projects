@@ -7,7 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
+import in.prajwal.entity.CitizenPlan;
 import in.prajwal.request.SearchRequest;
 import in.prajwal.service.ReportService;
 
@@ -17,28 +20,26 @@ public class ReportController {
 	@Autowired
 	private ReportService service;
 	
+	@PostMapping("/search")
+	public String handleSearch(@ModelAttribute("search") SearchRequest search, Model model) {
+		System.out.println("request");
+		List<CitizenPlan> plans = service.search(search);
+		
+		model.addAttribute("plans", plans);
+		init(model);
+		return "index";
+	}
+	
 	@GetMapping("/")
 	public String indexPage(Model model) {
-		SearchRequest searchObj = new SearchRequest();
-
-		    // ✅ Log values to ensure object is not null
-		    System.out.println("SearchRequest object: " + searchObj);
-		    System.out.println("PlanName: " + searchObj.getPlanName());
-		    System.out.println("PlanStatus: " + searchObj.getPlanStatus());
-		    System.out.println("Gender: " + searchObj.getGender());
-
-		    List<String> names = service.getPlanNames();
-		    List<String> statuses = service.getPlanStatuses();
-
-		    System.out.println("Plan Names: " + names);
-		    System.out.println("Plan Statuses: " + statuses);
-
-		    model.addAttribute("search", searchObj);
-		    model.addAttribute("name", names);
-		    model.addAttribute("status", statuses);
-
-		  
-
+		   model.addAttribute("search", new SearchRequest());
+		    init(model);
 		return "index";
+	}
+
+	public void init(Model model) {
+	 
+		model.addAttribute("name", service.getPlanNames());
+		model.addAttribute("status", service.getPlanStatuses());
 	}
 }
