@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import in.prajwal.entity.CitizenPlan;
 import in.prajwal.request.SearchRequest;
 import in.prajwal.service.ReportService;
+import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
 public class ReportController {
@@ -34,12 +35,28 @@ public class ReportController {
 	public String indexPage(Model model) {
 		   model.addAttribute("search", new SearchRequest());
 		    init(model);
-		return "index";
+		return "index";       
 	}
 
 	public void init(Model model) {
 	 
-		model.addAttribute("name", service.getPlanNames());
+		model.addAttribute("name", service.getPlanNames());              
 		model.addAttribute("status", service.getPlanStatuses());
+	}
+	
+	@PostMapping("/excel")
+	public void excelExportFiltered(@ModelAttribute("search") SearchRequest request,
+	                                HttpServletResponse response) throws Exception {
+	    response.setContentType("application/octet-stream");
+	    response.addHeader("Content-Disposition", "attachment;filename=plans.xls");
+	    service.exportExcel(response, request);
+	}
+
+	
+	@GetMapping("/pdf")
+	public void pdfExport(HttpServletResponse response) throws Exception {
+		response.setContentType("application/pdf");
+		response.addHeader("Content-Disposition","attachment;filename=plans.pdf");
+		service.exportdf(response);
 	}
 }

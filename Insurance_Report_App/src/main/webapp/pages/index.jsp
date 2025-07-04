@@ -96,9 +96,19 @@
        </tr> 
        </tbody>
      </table> 
-     <hr/>
-     Export : <a href="">Excel</a> <a href="">PDF</a>
-   </div>
+    <hr/>
+<!-- Export Section -->
+<div class="d-flex justify-content-start gap-3">
+  
+  <!-- Excel Export Form with search filters -->
+  <form:form action="excel" modelAttribute="search" method="post">
+    <button type="submit" class="btn btn-success">Export to Excel</button>
+  </form:form>
+
+  <!-- PDF Export Link -->
+  <a href="pdf" class="btn btn-danger">Export to PDF</a>
+
+</div>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>

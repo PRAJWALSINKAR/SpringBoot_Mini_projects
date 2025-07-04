@@ -1,10 +1,10 @@
 package in.prajwal.service;
 
+import java.io.File;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
@@ -12,71 +12,87 @@ import org.springframework.stereotype.Service;
 import in.prajwal.entity.CitizenPlan;
 import in.prajwal.repo.CitizenPlanRepository;
 import in.prajwal.request.SearchRequest;
+import in.prajwal.util.ExcelHGenerator;
+import in.prajwal.util.PdfGenerator;
+import jakarta.servlet.http.HttpServletResponse;
 
 @Service
 public class ServiceImpl implements ReportService {
+
+    @Autowired
+    private CitizenPlanRepository repo;
+
+    @Autowired
+    private ExcelHGenerator excelGenerator;
+
+    @Autowired
+    private PdfGenerator pdfGenerator;
+
+    @Override
+    public List<String> getPlanNames() {
+        return repo.getPlanNames();
+    }
+
+    @Override
+    public List<String> getPlanStatuses() {
+        return repo.getPlanStatus();
+    }
+
+    @Override
+    public List<CitizenPlan> search(SearchRequest request) {
+        CitizenPlan entity = new CitizenPlan();
+
+        if (request.getPlanName() != null && !request.getPlanName().isEmpty()) {
+            entity.setPlanName(request.getPlanName());
+        }
+
+        if (request.getPlanStatus() != null && !request.getPlanStatus().isEmpty()) {
+            entity.setPlanStatus(request.getPlanStatus());
+        }
+
+        if (request.getGender() != null && !request.getGender().isEmpty()) {
+            entity.setGender(request.getGender());
+        }
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+        if (request.getStartDate() != null && !request.getStartDate().isEmpty()) {
+            LocalDate startDate = LocalDate.parse(request.getStartDate(), formatter);
+            entity.setPlanStartDate(startDate);
+        }
+
+        if (request.getEndDate() != null && !request.getEndDate().isEmpty()) {
+            LocalDate endDate = LocalDate.parse(request.getEndDate(), formatter);
+            entity.setPlanEndDate(endDate);
+        }
+
+        return repo.findAll(Example.of(entity));
+    }
+
+    @Override
+    public boolean exportExcel(HttpServletResponse response, SearchRequest request) throws Exception {
+        File file = new File("plans.xls");
+
+        List<CitizenPlan> filteredPlans = search(request);
+        excelGenerator.generate(response, filteredPlans, file);
+
+       
+
+        file.delete();
+        return true;
+    }
+
+    @Override
+    public boolean exportdf(HttpServletResponse response) throws Exception {
+        File file = new File("Plans.pdf");
+
+        List<CitizenPlan> plans = repo.findAll();
+        pdfGenerator.generate(response, plans, file);
+
      
-	@Autowired
-	private CitizenPlanRepository repo;
-	
-	@Override
-	public List<String> getPlanNames() {
-		// TODO Auto-generated method stub
-		return repo.getPlanNames();
-	}
 
-	@Override
-	public List<String> getPlanStatuses() {
-		
-		return repo.getPlanStatus();
-	}
 
-	@Override
-	public List<CitizenPlan> search(SearchRequest request) {
-		
-		CitizenPlan entity = new CitizenPlan();
-		
-         if(null != request.getPlanName() && !"".equals(request.getPlanName())){
-		 entity.setPlanName(request.getPlanName());
-	}
-	
-	  if(null != request.getPlanStatus() && !"".equals(request.getPlanStatus())){
-		 entity.setPlanStatus(request.getPlanStatus());
-	}
-	  
-	  if(null != request.getGender() && !"".equals(request.getGender())){
-			 entity.setGender(request.getGender());
-		}
-	  
-	  if(null != request.getStartDate() && !"".equals(request.getStartDate())) {
-			String startDate = request.getStartDate();
-			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-			LocalDate localDate =  LocalDate.parse(startDate,formatter);
-			entity.setPlanStartDate(localDate);
-			
-		}
-	
-	
-	 if(null != request.getEndDate() && !"".equals(request.getEndDate())) {
-			String endDate = request.getStartDate();
-			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-			LocalDate localDate =  LocalDate.parse(endDate,formatter);
-			entity.setPlanEndDate(localDate);
-			
-		}
-		
-		return repo.findAll(Example.of(entity));
-	}
-	@Override
-	public boolean excelExport() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean pdfExport() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
+        file.delete();
+        return true;
+    }
 }
