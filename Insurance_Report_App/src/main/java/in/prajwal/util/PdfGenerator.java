@@ -30,15 +30,14 @@ public class PdfGenerator {
 			PdfWriter pdfwriter = PdfWriter.getInstance(document,response.getOutputStream());
 			PdfWriter.getInstance(document,new FileOutputStream(f));
 			document.open();
-			// Creating font
-			// Setting font style and size
+			
 			Font fontTiltle = FontFactory.getFont(FontFactory.TIMES_ROMAN);
 			fontTiltle.setSize(20);
-			// Creating paragraph
+			
 			Paragraph paragraph = new Paragraph("Citizens Plan", fontTiltle);
-			// Aligning the paragraph in document
+		
 			paragraph.setAlignment(Paragraph.ALIGN_CENTER);
-			// Adding the created paragraph in document
+		
 			document.add(paragraph);
 			Paragraph p = new Paragraph(" ");
 			document.add(p);

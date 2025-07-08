@@ -1,0 +1,4 @@
+package in.prajwal.repo;
+
+public interface UserDtlsRepo {
+}

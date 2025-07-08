@@ -46,17 +46,24 @@ public class ReportController {
 	
 	@PostMapping("/excel")
 	public void excelExportFiltered(@ModelAttribute("search") SearchRequest request,
-	                                HttpServletResponse response) throws Exception {
+	                                HttpServletResponse response , Model model) throws Exception {
 	    response.setContentType("application/octet-stream");
 	    response.addHeader("Content-Disposition", "attachment;filename=plans.xls");
-	    service.exportExcel(response, request);
+	    boolean status = service.exportExcel(response, request);
+	    if(status) {
+	       
+		model.addAttribute("msg", "EXCEL Report sent to your mail");
+	    }
 	}
 
 	
 	@GetMapping("/pdf")
-	public void pdfExport(HttpServletResponse response) throws Exception {
+	public void pdfExport(HttpServletResponse response, Model model) throws Exception {
 		response.setContentType("application/pdf");
 		response.addHeader("Content-Disposition","attachment;filename=plans.pdf");
-		service.exportdf(response);
+		boolean status= service.exportdf(response);
+		if(status) {
+			model.addAttribute("msg", "PDF Report Sent to your Email" );
+		}
 	}
 }

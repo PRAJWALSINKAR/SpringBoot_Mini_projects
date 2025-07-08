@@ -16,7 +16,9 @@ public class EmailUtils {
 	public boolean sendEmail(String Subject,String body,String to,File f) {
 		
 		try {
+			// Create a new email object.
 			MimeMessage mimemsg = mailSender.createMimeMessage();
+			//You want to send a multipart email (i.e., text + attachments).
 			MimeMessageHelper helper = new MimeMessageHelper(mimemsg , true);
 			helper.setSubject(Subject);
 			helper.setText(body, true);

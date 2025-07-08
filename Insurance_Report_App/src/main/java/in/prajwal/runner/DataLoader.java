@@ -24,6 +24,7 @@ public class DataLoader implements ApplicationRunner{
 	     //cash plan data
 		CitizenPlan c1 = new CitizenPlan();
 		c1.setCitizenName("John");
+		c1.setPlanStatus("Approved");
 		c1.setGender("male");
 		c1.setPlanName("cash");
 		c1.setPlanStartDate(LocalDate.now());

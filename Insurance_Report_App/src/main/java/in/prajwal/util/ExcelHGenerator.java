@@ -39,11 +39,9 @@ public class ExcelHGenerator {
 			dataRow.createCell(1).setCellValue(plan.getCitizenName());
 			dataRow.createCell(2).setCellValue(plan.getPlanName());
 			dataRow.createCell(3).setCellValue(plan.getPlanStatus());
-//			dataRow.createCell(4).setCellValue(plan.getPlanStartDate()+"");//date is not converting properly in excel so concatenate with string 
-//			dataRow.createCell(5).setCellValue(plan.getPlanEndDate()+"");
 			
 			if(null != plan.getPlanStartDate()) {
-				dataRow.createCell(4).setCellValue(plan.getPlanStartDate()+"");//date is not converting properly in excel so concatenate with string 
+				dataRow.createCell(4).setCellValue(plan.getPlanStartDate()+""); //STRING--> Date_obj
 				
 			}
 			else {
@@ -53,7 +51,7 @@ public class ExcelHGenerator {
 				dataRow.createCell(5).setCellValue(plan.getPlanEndDate()+"");
 			}
 			else {
-				dataRow.createCell(5).setCellValue("N/A");
+				dataRow.createCell(5).setCellValue("N/A"); 
 			}
 			if(null != plan.getBenefitAmt()) {
 				dataRow.createCell(6).setCellValue(plan.getBenefitAmt());
