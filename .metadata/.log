@@ -8920,3 +8920,1596 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-07 11:26:24.582
 !MESSAGE Started Boot LS process
+!SESSION 2025-07-08 20:33:38.421 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 20:33:44.718
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-08 20:33:46.115
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 20:33:48.733
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-08 20:33:50.049
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-08 20:33:50.049
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-08 20:33:50.708
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-08 20:33:51.063
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-08 20:33:51.063
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-08 20:34:02.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-08 20:34:03.409
+!MESSAGE Boot project ADDED: Insurance_Report_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-08 20:34:03.413
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-08 20:34:03.595
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-08 20:34:03.670
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1751987043664
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-08 20:34:03.674
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-08 20:34:03.739
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10212
+!SESSION 2025-07-08 20:38:27.900 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 20:38:33.878
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-08 20:38:34.608
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 20:38:36.668
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-08 20:38:37.543
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-08 20:38:37.543
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-08 20:38:37.991
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.osgi 4 0 2025-07-08 20:38:38.030
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4952)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:500)
+	at org.eclipse.swt.widgets.Control.createHandle(Control.java:675)
+	at org.eclipse.swt.widgets.Scrollable.createHandle(Scrollable.java:146)
+	at org.eclipse.swt.widgets.Composite.createHandle(Composite.java:300)
+	at org.eclipse.swt.widgets.Control.createWidget(Control.java:701)
+	at org.eclipse.swt.widgets.Scrollable.createWidget(Scrollable.java:161)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:121)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:85)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:103)
+	at org.eclipse.ui.splash.BasicSplashHandler.getBundleProgressMonitor(BasicSplashHandler.java:136)
+	at org.eclipse.ui.splash.BasicSplashHandler.getContent(BasicSplashHandler.java:222)
+	at org.eclipse.ui.internal.splash.EclipseSplashHandler.init(EclipseSplashHandler.java:99)
+	at org.eclipse.ui.internal.Workbench$3.run(Workbench.java:842)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:856)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:631)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-07-09 10:21:29.398 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:21:38.786
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 10:21:40.184
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:21:44.858
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:21:46.408
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:21:46.408
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 10:21:47.070
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:21:49.256
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:21:49.256
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:22:08.857
+!MESSAGE Boot project ADDED: Insurance_Report_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:22:08.859
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:22:08.912
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 10:22:08.963
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 10:22:08.975
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752036728973
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:22:08.979
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 10:22:09.018
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17460
+!SESSION 2025-07-09 10:26:57.018 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:27:03.070
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 10:27:03.851
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 4 567 2025-07-09 10:27:06.777
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-07-09 10:27:06.777
+!MESSAGE Could not read metadata for 'Insurance_Report_App'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Insurance_Report_App)[567]: java.lang.Exception: The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:179)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2025-07-09 10:27:06.779
+!MESSAGE The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:179)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:27:08.272
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:27:09.690
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:27:09.692
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 10:27:10.576
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:27:10.897
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:27:10.897
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 10:27:20.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-07-09 10:28:55.862 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:29:02.802
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 10:29:03.723
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:29:06.323
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:29:07.597
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:29:07.597
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 10:29:07.988
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:29:08.173
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:29:08.173
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 10:29:16.176
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 567 2025-07-09 10:29:23.585
+!MESSAGE The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-07-09 10:30:12.377 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:30:16.228
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 10:30:16.834
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:30:18.409
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:30:19.235
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:30:19.235
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 10:30:19.587
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:30:19.774
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:30:19.774
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 10:30:26.807
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 567 2025-07-09 10:30:43.988
+!MESSAGE The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'Insurance_Report_App' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:970)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-07-09 10:32:22.358 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:32:27.151
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 10:32:27.821
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 10:32:29.646
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:32:30.404
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:32:30.404
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 10:32:30.743
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 10:32:30.952
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 10:32:30.952
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 10:32:37.947
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:34:48.528
+!MESSAGE Classpath changed for project: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:34:50.271
+!MESSAGE Classpath changed for project: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:01.813
+!MESSAGE Classpath changed for project: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:01.846
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:01.869
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:01.906
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 10:35:01.946
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752037501944
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:01.948
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 10:35:01.964
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14044
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:02.515
+!MESSAGE Classpath changed for project: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:02.753
+!MESSAGE Classpath changed for project: Insurance_Report_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:35:02.755
+!MESSAGE Boot project ADDED: Insurance_Report_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:36:28.732
+!MESSAGE Classpath changed for project: Insurance_Report_App
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 10:36:28.734
+!MESSAGE Boot project REMOVED: Insurance_Report_App
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2025-07-09 10:36:28.797
+!MESSAGE No IModelProvider exists for project P/Insurance_Report_App of version: null
+!STACK 0
+java.lang.NullPointerException: No IModelProvider exists for project P/Insurance_Report_App of version: null
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:101)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:281)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:124)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:124)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:98)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2407)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:256)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:226)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:143)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:238)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:93)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:131)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:673)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:529)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2025-07-09 10:36:28.801
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jst.j2ee.model.IModelProvider.getModelObject()" because the return value of "org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(org.eclipse.core.resources.IProject)" is null
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:124)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:124)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:98)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2407)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:256)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:226)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:143)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:238)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:93)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:131)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:673)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:529)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2025-07-09 10:36:28.806
+!MESSAGE An exception occurred invoking extension: org.eclipse.jst.jee.ui.web for object P/Insurance_Report_App
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jst.j2ee.model.IModelProvider.getModelObject()" because the return value of "org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(org.eclipse.core.resources.IProject)" is null
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:124)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:144)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:124)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:98)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2407)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:256)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:226)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:143)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:238)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:93)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:131)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:673)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:529)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2025-07-09 10:36:28.810
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:762)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:526)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:124)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:98)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:154)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:286)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2407)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2482)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:256)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:226)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:143)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:99)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:36)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:238)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:93)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:159)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:145)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:131)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:352)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:849)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:673)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2031)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2004)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1961)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:529)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:367)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1486)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:533)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:349)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:492)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:147)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-07-09 13:06:06.228 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 13:06:16.951
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 13:06:19.156
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 13:06:25.267
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 13:06:28.500
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 13:06:28.500
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 13:06:29.975
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 13:06:30.560
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 13:06:30.560
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 13:06:51.821
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752046611815
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 13:06:51.821
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 13:06:51.899
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10820
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 13:06:59.081
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 13:07:00.579
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 13:07:00.581
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 13:07:00.584
+!MESSAGE Started Boot LS process
+!SESSION 2025-07-09 15:47:18.594 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 15:47:37.672
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 15:47:39.260
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 15:47:43.506
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 15:47:45.171
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 15:47:45.171
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 15:47:45.761
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 15:47:46.148
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 15:47:46.148
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 15:48:00.400
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752056280397
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 15:48:00.402
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 15:48:00.436
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7928
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 15:48:09.178
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 15:48:09.180
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 15:48:09.184
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 15:48:09.412
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.115
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.119
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.122
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.126
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.147
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-09 15:58:42.158
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2025-07-09 18:22:37.184 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 18:22:47.630
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-09 18:22:50.102
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 18:22:58.381
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 18:22:59.685
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 18:22:59.685
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-09 18:23:00.803
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-09 18:23:02.747
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-09 18:23:02.747
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 18:23:21.001
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752065601000
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 18:23:21.003
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-09 18:23:21.037
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 19188
+
+!ENTRY org.eclipse.equinox.app 4 2 2025-07-09 18:23:26.735
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.equinox.app".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:500)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:419)
+	at org.eclipse.swt.widgets.Shell.close(Shell.java:551)
+	at org.eclipse.ui.splash.AbstractSplashHandler.dispose(AbstractSplashHandler.java:65)
+	at org.eclipse.ui.internal.Workbench$3$1.applicationRunning(Workbench.java:830)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle$1.run(EclipseAppHandle.java:290)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.applicationRunning(EclipseAppHandle.java:278)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1088)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 18:23:26.854
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 18:23:27.111
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 18:23:27.118
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-09 18:23:27.131
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.jface 2 0 2025-07-09 18:23:32.468
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-09 18:23:32.468
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-07-09 18:23:36.246
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.LanguageServerWrapper$2 RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+	 at org.eclipse.lsp4e.LanguageServerWrapper$2.run(LanguageServerWrapper.java:446)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-07-10 09:01:02.561 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-10 09:01:08.519
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-10 09:01:09.226
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-10 09:01:11.035
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-10 09:01:11.757
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-10 09:01:11.757
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-10 09:01:12.129
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-10 09:01:12.343
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-10 09:01:12.343
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-10 09:01:19.460
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752118279458
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 09:01:19.461
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-10 09:01:19.488
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13604
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 09:01:22.974
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 09:01:22.976
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 09:01:22.978
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-10 09:01:23.136
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-10 09:02:00.657
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-10 09:02:00.657
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-07-10 12:07:29.864 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-10 12:07:34.402
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-10 12:07:35.138
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (626) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-10 12:07:36.870
+!MESSAGE Logback config file: C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-10 12:07:37.601
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-10 12:07:37.601
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-07-10 12:07:37.937
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 33: file:/C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-07-10 12:07:38.117
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-10 12:07:38.117
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-10 12:07:45.041
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Shree/Desktop/FULL STACK/JRTP/01_MINI_projects/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1752129465039
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\IDE\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 12:07:45.042
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-07-10 12:07:45.064
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3940
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 12:07:48.605
+!MESSAGE Boot project ADDED: Student_CRM
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 12:07:48.607
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-10 12:07:48.611
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-10 12:07:48.820
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Shree'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

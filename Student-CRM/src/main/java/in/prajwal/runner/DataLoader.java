@@ -1,4 +1,0 @@
-package in.prajwal.runner;
-
-public class DataLoader {
-}

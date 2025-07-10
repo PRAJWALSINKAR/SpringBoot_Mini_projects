@@ -1321,3 +1321,157 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2025-07-07 09:54:45,513 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-07 09:54:45,534 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Insurance_Report_App\src\test\resources
 2025-07-07 11:26:17,246 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-08 20:34:02,479 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-08 20:34:34,851 [Worker-9: Launching Insurance_Report_App - InsuranceReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-08 20:34:34,939 [Worker-9: Launching Insurance_Report_App - InsuranceReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-08 20:34:34,957 [Worker-9: Launching Insurance_Report_App - InsuranceReportAppApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Insurance_Report_App\src\test\resources
+2025-07-09 10:22:08,361 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 10:27:20,231 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 10:29:15,769 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 10:30:26,354 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 10:32:37,539 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 10:34:56,932 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:02_MiniProject_App-1:0.0.1-SNAPSHOT @ C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\pom.xml.
+2025-07-09 10:35:01,578 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 10:35:01,610 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2025-07-09 10:35:01,659 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 10:35:06,557 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:01_ReportsApp:0.0.1-SNAPSHOT @ C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Insurance_Report_App\pom.xml.
+2025-07-09 10:35:06,780 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 10:35:06,817 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-09 10:35:06,828 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Insurance_Report_App\src\test\resources
+2025-07-09 10:35:15,296 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 10:35:15,299 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2025-07-09 10:35:15,328 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 10:35:34,488 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 10:35:34,507 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-09 10:35:34,517 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 10:44:32,273 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-09 10:44:32,289 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2025-07-09 10:44:32,327 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 13:06:58,899 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 15:48:08,798 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-09 15:55:16,269 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 15:55:16,318 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-09 15:55:16,363 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 15:55:24,306 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 15:55:24,318 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-09 15:55:24,345 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 17:39:01,907 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 17:39:01,957 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-09 17:39:01,986 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 17:54:06,966 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 17:54:06,984 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-09 17:54:07,003 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-09 18:23:26,780 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-10 09:01:22,853 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-10 09:02:31,585 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:02:31,621 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:02:31,691 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:02:53,337 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:02:53,351 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:02:53,380 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:03:10,872 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:03:10,888 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:03:10,914 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:03:49,500 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:03:49,516 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:03:49,566 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:03:57,825 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:03:57,841 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:03:57,866 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:04:04,670 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:04:04,682 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:04:04,697 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:04:12,488 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:04:12,500 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:04:12,514 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:04:55,062 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:04:55,083 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:04:55,111 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:05:21,473 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:05:21,488 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:05:21,509 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:05:32,689 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:05:32,702 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:05:32,725 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:05:44,076 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:05:44,086 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:05:44,098 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:06:14,777 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:06:14,788 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:06:14,805 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:06:37,195 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:06:37,210 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:06:37,259 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:06:42,611 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:06:42,624 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:06:42,645 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:06:52,170 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:06:52,184 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:06:52,200 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:07:01,764 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:07:01,776 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:07:01,790 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:07:16,690 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:07:16,701 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:07:16,715 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:08:49,321 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:08:49,337 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:08:49,360 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:08:53,973 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:08:53,985 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:08:53,998 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:08:56,885 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:08:56,905 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:08:56,927 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:08:58,276 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:08:58,287 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:08:58,300 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:09:00,464 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:09:00,474 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:09:00,487 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:09:03,645 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:09:03,656 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:09:03,671 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:09:05,865 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:09:05,877 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:09:05,890 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:09:18,809 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:09:18,821 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:09:18,839 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:09:21,147 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:09:21,159 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:09:21,177 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:11:45,037 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:11:45,050 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:11:45,064 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:11:47,622 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:11:47,636 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:11:47,656 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:11:57,620 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:11:57,632 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:11:57,650 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:12:18,950 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:12:18,963 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:12:18,980 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:13:14,954 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:13:14,965 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:13:14,978 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:13:18,980 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:13:18,993 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:13:19,012 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:13:27,352 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:13:27,363 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:13:27,380 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:13:32,367 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:13:32,383 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:13:32,401 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 09:13:36,010 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 09:13:36,023 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 09:13:36,043 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 11:02:01,169 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 11:02:01,226 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 11:02:01,241 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 11:17:40,913 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-10 11:17:40,988 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 17 resources from src\main\resources to target\classes
+2025-07-10 11:17:41,324 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shree\Desktop\FULL STACK\JRTP\01_MINI_projects\Student_CRM\src\test\resources
+2025-07-10 12:07:48,429 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
