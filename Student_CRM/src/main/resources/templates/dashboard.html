@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="www.thymeleaf.com">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -90,10 +90,21 @@
   <!-- Dashboard -->
   <div class="dashboard-container">
     <div class="performance-text">
-      <h5>Your Performance</h5>
-      <p><strong>Total Enquiries :</strong> 256</p>
-      <p class="enrolled">Enrolled : 84</p>
-      <p class="lost">Lost : 172</p>
+    <h5>Your Performance</h5>
+
+<h2>Total Enquiries : </h2>
+<p th:text="${dashboardData.totalEnquriesCnt}"></p>
+
+<h2 class="text-success">Enrolled :
+    <p th:text="${dashboardData.enrolledCnt}"></p>
+</h2>
+
+<h2 class="text-danger">Lost :
+    <p th:text="${dashboardData.lostCnt}"></p>
+</h2>
+
+
+
     </div>
     <div>
       <img src="images/Logo_1.jpeg" alt="Lady" class="lady-image" />

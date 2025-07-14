@@ -43,7 +43,6 @@ public class EnquiryController {
 	}
 	
 	
-	
 	private void initForm(Model model) {
 		List<String> courses = enqService.getCourseName();
 		
@@ -71,17 +70,25 @@ public class EnquiryController {
 	}
 
 	@GetMapping("/enquiry")
-	public String loadEnquiryPage(Model model) {
-	    model.addAttribute("enqForm", new EnquiryForm());
+	public String loadEnquiryPage(@RequestParam(value = "enqId", required = false) Integer enqId, Model model) {
 
-	    // Inject dropdown values
+	    EnquiryForm form = new EnquiryForm();
+
+	    if (enqId != null) {
+	        form = enqService.getEnquiry(enqId); // fetch and populate the form
+	    }
+
+	    model.addAttribute("enqForm", form);
+
 	    model.addAttribute("courseNames", enqService.getCourseName());
 	    model.addAttribute("enqStatusList", enqService.getEnqStatus());
 	    model.addAttribute("modeList", List.of("Online", "Offline"));
 
-	    return "enquiry";  // HTML filename (enquiry-form.html)
+	    return "enquiry"; // Thymeleaf form page
 	}
 
+
+	 
 	@PostMapping("/enquiry")
 	public String handleFormSubmit(@ModelAttribute("enqForm") EnquiryForm form) {
 	    String status = enqService.upsertEnquiry(form);

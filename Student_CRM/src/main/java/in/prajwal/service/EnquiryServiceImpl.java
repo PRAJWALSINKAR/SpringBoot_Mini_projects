@@ -2,6 +2,8 @@ package in.prajwal.service;
 
 import java.util.Collection;
 
+
+
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -12,8 +14,12 @@ import org.springframework.stereotype.Service;
 import in.prajwal.binding.DashBoardResponse;
 import in.prajwal.binding.EnquiryForm;
 import in.prajwal.binding.EnquirySearchFilter;
+import in.prajwal.entity.CourseEntity;
+import in.prajwal.entity.EnqStatusEntity;
 import in.prajwal.entity.StudentEnqEntity;
 import in.prajwal.entity.UserDtlsEntity;
+import in.prajwal.repo.CourseRepo;
+import in.prajwal.repo.EnqStatusRepo;
 import in.prajwal.repo.StudentEnqRepo;
 import in.prajwal.repo.UserDtlsRepo;
 import jakarta.servlet.http.HttpSession;
@@ -22,9 +28,19 @@ import jakarta.servlet.http.HttpSession;
 public class EnquiryServiceImpl implements EnquiryService{
 	
 	@Autowired
+	private CourseRepo courseRepo;
+
+	@Autowired
+	private EnqStatusRepo statusRepo;
+	
+	@Autowired
 	private UserDtlsRepo userDtlsRepo;
 	@Autowired
 	private HttpSession session;
+	
+	
+	@Autowired
+	private StudentEnqRepo studentEnqRepo;
 	
 	@Override
 	public List<StudentEnqEntity> getEnquries(){
@@ -40,46 +56,85 @@ public class EnquiryServiceImpl implements EnquiryService{
 
 	@Override
 	public List<String> getCourseName() {
-	    return List.of("Java Fullstack", "DevOps", "React JS");
+	    return courseRepo.findAll()
+	                     .stream()
+	                     .map(CourseEntity::getCourseName)
+	                     .collect(Collectors.toList());
 	}
 
 	@Override
 	public List<String> getEnqStatus() {
-	    return List.of("New", "Enrolled", "Lost");
+	    return statusRepo.findAll()
+	                     .stream()
+	                     .map(EnqStatusEntity::getStatusName)
+	                     .collect(Collectors.toList());
 	}
-
 
 	@Override
 	public DashBoardResponse getDashboardData(Integer userId) {
 		// TODO Auto-generated method stub
-		return null;
-	}
+		DashBoardResponse response = new DashBoardResponse();
 
-	
-	@Autowired
-	private StudentEnqRepo studentEnqRepo;
+		Optional<UserDtlsEntity> findById = userDtlsRepo.findById(userId);
 
-	@Override
-	public String upsertEnquiry(EnquiryForm form) {
-		Integer userId = (Integer) session.getAttribute("userId");
-		Optional<UserDtlsEntity> userOpt = userDtlsRepo.findById(userId);
+		if (findById.isPresent()) {
+		    UserDtlsEntity userEntity = findById.get();
 
-		if (userOpt.isPresent()) {
-			StudentEnqEntity enq = new StudentEnqEntity();
-			enq.setStudentName(form.getStudentName());
-			enq.setStudentPhno(form.getStudentPhno());
-			enq.setCourseName(form.getCourseName());
-			enq.setClassMode(form.getMode());
-			enq.setEnqStatus(form.getEnqStatus());
-			enq.setUser(userOpt.get());
+		    List<StudentEnqEntity> enquiries = userEntity.getEnquiries();
+            // total enq
+		    Integer totalCnt = enquiries.size();
+		                       
+		    Integer enrolledCnt = enquiries.stream()
+		    	    .filter(e -> e.getEnqStatus().equals("Enrolled"))
+		    	    .collect(Collectors.toList()).size();
 
-			studentEnqRepo.save(enq); // ✅ Persist enquiry
+		    	Integer lostCnt = enquiries.stream()
+		    	    .filter(e -> e.getEnqStatus().equals("Lost"))
+		    	    .collect(Collectors.toList()).size();
 
-			return "success";
+		    	response.setTotalEnquriesCnt(totalCnt);
+		    	response.setEnrolledCnt(enrolledCnt);
+		    	response.setLostCnt(lostCnt);
+
 		}
 
-		return "fail";
+		return response;
 	}
+
+
+    //saving the query
+	@Override
+	public String upsertEnquiry(EnquiryForm form) {
+	    Integer userId = (Integer) session.getAttribute("userId");
+	    Optional<UserDtlsEntity> userOpt = userDtlsRepo.findById(userId);
+
+	    if (userOpt.isPresent()) {
+	        StudentEnqEntity enq;
+
+	        // 🟡 If editing (enqId is present), fetch existing entity
+	        if (form.getEnqId() != null) {
+	            Optional<StudentEnqEntity> opt = studentEnqRepo.findById(form.getEnqId());
+	            enq = opt.orElse(new StudentEnqEntity()); // fallback to new if not found
+	        } else {
+	            enq = new StudentEnqEntity(); // 🟢 New insert
+	        }
+
+	        // Set data (common for insert or update)
+	        enq.setStudentName(form.getStudentName());
+	        enq.setStudentPhno(form.getStudentPhno());
+	        enq.setCourseName(form.getCourseName());
+	        enq.setClassMode(form.getMode());
+	        enq.setEnqStatus(form.getEnqStatus());
+	        enq.setUser(userOpt.get());
+
+	        studentEnqRepo.save(enq); // ✅ Save or update
+
+	        return "success";
+	    }
+
+	    return "fail";
+	}
+	
 	@Override
 	public List<StudentEnqEntity> getFilteredEnquiries(EnquirySearchFilter filter, Integer userId) {
 	    Optional<UserDtlsEntity> findById = userDtlsRepo.findById(userId);
@@ -136,8 +191,25 @@ public class EnquiryServiceImpl implements EnquiryService{
 
 	@Override
 	public EnquiryForm getEnquiry(Integer enqId) {
-		// TODO Auto-generated method stub
-		return null;
+	
+	    Optional<StudentEnqEntity> opt = studentEnqRepo.findById(enqId);
+	    
+	    if (opt.isPresent()) {
+	        StudentEnqEntity entity = opt.get();
+	        EnquiryForm form = new EnquiryForm();
+
+	        form.setEnqId(entity.getEnqId()); // make sure this field exists in your form
+	        form.setStudentName(entity.getStudentName());
+	        form.setStudentPhno(entity.getStudentPhno());
+	        form.setCourseName(entity.getCourseName());
+	        form.setMode(entity.getClassMode());
+	        form.setEnqStatus(entity.getEnqStatus());
+
+	        return form;
+	    }
+
+	    return new EnquiryForm(); // fallback empty form
 	}
+
 	
 }

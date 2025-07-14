@@ -10,6 +10,8 @@
     <h3 class="mb-4 text-center">Add Student Enquiry</h3>
 
     <form th:action="@{/enquiry}" th:object="${enqForm}" method="post">
+    <input type="hidden" th:field="*{enqId}" />
+    
         <div class="mb-3">
             <label for="name">Name</label>
             <input type="text" th:field="*{studentName}" class="form-control" id="name" required/>
