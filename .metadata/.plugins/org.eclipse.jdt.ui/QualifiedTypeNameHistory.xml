@@ -39,4 +39,10 @@
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
+    <fullyQualifiedTypeName name="prajwal.in.enity.User"/>
+    <fullyQualifiedTypeName name="prajwal.in.UserService.UserService"/>
+    <fullyQualifiedTypeName name="prajwal.in.service.CommentService"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>
