@@ -7,4 +7,7 @@ import prajwal.in.enity.Post;
 public interface CommentService {
     void saveComment(Comment comment);
     List<Comment> getCommentsByPost(Post post);
+    // New methods:
+    Comment getCommentById(Integer id);
+    void deleteCommentById(Integer id);
 }

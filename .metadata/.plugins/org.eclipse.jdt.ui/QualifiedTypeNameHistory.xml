@@ -45,4 +45,5 @@
     <fullyQualifiedTypeName name="prajwal.in.UserService.UserService"/>
     <fullyQualifiedTypeName name="prajwal.in.service.CommentService"/>
     <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 </qualifiedTypeNameHistroy>

@@ -24,4 +24,13 @@ public class CommentServiceImpl implements CommentService {
     public List<Comment> getCommentsByPost(Post post) {
         return commentRepo.findByPost(post);
     }
+    @Override
+    public Comment getCommentById(Integer id) {
+        return commentRepo.findById(id).orElse(null);
+    }
+
+    @Override
+    public void deleteCommentById(Integer id) {
+        commentRepo.deleteById(id);
+    }
 }

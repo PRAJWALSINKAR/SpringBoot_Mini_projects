@@ -20,15 +20,14 @@ public class PostController {
     @Autowired
     private PostService postService;
 
-    
-    
-    
+    @Autowired
+    private CommentService commentService;
+
     @GetMapping("/")
     public String showHomePage(Model model, HttpSession session) {
         List<Post> allPosts = postService.getAllPosts();
         model.addAttribute("posts", allPosts);
 
-        // This part ensures user's session is recognized on home page
         User loggedInUser = (User) session.getAttribute("user");
         if (loggedInUser != null) {
             model.addAttribute("user", loggedInUser);
@@ -37,9 +36,6 @@ public class PostController {
         return "index"; // or your home template name
     }
 
-
-    
-    // Show dashboard
     @GetMapping("/dashboard")
     public String showDashboard(HttpSession session, Model model) {
         User user = (User) session.getAttribute("user");
@@ -50,14 +46,12 @@ public class PostController {
         return "dashboard";
     }
 
-    // Show form to create a new post
     @GetMapping("/post/new")
     public String createPostForm(Model model) {
         model.addAttribute("post", new Post());
         return "create_post";
     }
 
-    // Save new or updated post
     @PostMapping("/post/save")
     public String savePost(@ModelAttribute Post post, HttpSession session) {
         User user = (User) session.getAttribute("user");
@@ -66,7 +60,6 @@ public class PostController {
         return "redirect:/dashboard";
     }
 
-    // Edit post
     @GetMapping("/post/edit/{id}")
     public String editPost(@PathVariable Integer id, Model model) {
         Post post = postService.getPostById(id);
@@ -74,18 +67,12 @@ public class PostController {
         return "create_post";
     }
 
-    // Delete post
     @GetMapping("/post/delete/{id}")
     public String deletePost(@PathVariable Integer id) {
         postService.deletePostById(id);
         return "redirect:/dashboard";
     }
-    
-    //for comments
-    @Autowired
-    private CommentService commentService;
 
-    // View Blog Post + Show Comments + Comment Form
     @GetMapping("/post/view/{id}")
     public String viewPost(@PathVariable Integer id, Model model, HttpSession session) {
         Post post = postService.getPostById(id);
@@ -103,15 +90,36 @@ public class PostController {
         return "view_post";
     }
 
-
-
-    // Handle Comment Submission
     @PostMapping("/post/comment")
     public String saveComment(@ModelAttribute Comment comment, @RequestParam Integer postId) {
         Post post = postService.getPostById(postId);
         comment.setPost(post);
         commentService.saveComment(comment);
         return "redirect:/post/view/" + postId;
+    }
+
+    // Delete comment if logged-in user is author of the post
+    @GetMapping("/comment/delete/{commentId}")
+    public String deleteComment(@PathVariable Integer commentId, HttpSession session) {
+        User loggedInUser = (User) session.getAttribute("user");
+        if (loggedInUser == null) {
+            return "redirect:/login";  // Only allow logged in users
+        }
+
+        Comment comment = commentService.getCommentById(commentId);
+        if (comment == null) {
+            return "redirect:/"; // Comment not found, redirect safely
+        }
+
+        Post post = comment.getPost();
+
+        // Check if logged in user is the author of the post
+        if (post.getUser().getUserId().equals(loggedInUser.getUserId())) {
+            commentService.deleteCommentById(commentId);
+        } 
+        // else do not delete comment - user not authorized
+
+        return "redirect:/post/view/" + post.getPostId();
     }
 
 }
